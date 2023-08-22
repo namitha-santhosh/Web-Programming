@@ -4,9 +4,6 @@
 // document.writeln(name+number);
 // // alert("Hello World");
 
-import Contact from "./Contact.js";
-
-
 const formInfo = document.getElementById("formInfo");
 
 let hasJob = true;

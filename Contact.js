@@ -1,6 +1,5 @@
 // Contact.js
-
-export default class Contact {
+class Contact {
 
     constructor(form){
         this.fullName = form.elements["fullName"].value;
