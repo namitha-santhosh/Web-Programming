@@ -5,15 +5,16 @@ body{
 main{
     grid-area: main;
     background-color: #808080;
+    margin-left: 4px;
 }
 
 h1,h2{
-    color:darkblue;
+    color:rgb(66, 66, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
 #headshot{
-    border: 1px solid #808080;
+    border: 1px solid #f0eded;
     padding:2px;
     margin:8px;
     border-radius:500px;
@@ -24,7 +25,9 @@ h1,h2{
     font-family: 'Times New Roman', Times, serif;
     border: inset 1px;
     margin-bottom: 4px;
-    background-color: white;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: white; 
     color:#222
 }
 
