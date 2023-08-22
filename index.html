@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Namitha's Resume Page</title>
+        <link rel="icon" type="image/x-icon" href="Images\favicon.png">
+        <link rel="stylesheet" href="site.css">
+    </head>
+    
+    <body>
+        <div class="container">
+            <header>
+                <img id="headshot" src="Images\NAMITHA SANTHOSH_06.jpg" alt="My photo"/>
+                <h1 id="siteName">Namitha Santhosh</h1>
+                <ul id="menu">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                </ul>
+            </header>
+
+
+            <main>
+                <p><strong>Purpose:</strong>This is a resume.</p>
+    
+
+                <h2>Experience</h2>
+                    <div class="experience">
+                        <p class="title">DADB Germany - 2021-22</p>
+                        <p>Growth Intern</p>
+                    </div>
+                    <div class="experience">
+                        <p class="title">upGrad Campus - 2020</p>
+                        <p>Content Strategy Intern</p>
+                    </div>
+                    <div class="experience">
+                        <p class="title">Accubits Technologies</p>
+                        <p>Content Writing Intern</p>
+                    </div>
+
+            </main>
+
+            <aside>
+                <h2>Contact</h2>
+                <form id="contactForm">
+                    <div id="formInfo"></div>
+                    <div>
+                        <label for="fullName">Full Name</label>
+                        <input id="fullName" type="text"/>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email"/>
+                    </div>
+                    <div>
+                        <div>
+                        <label for="subject">Subject</label>
+                        </div>
+                        <select id="subject">
+                            <option>Job Offer</option>
+                            <option>Personal Message</option>
+                            <option>Complaint</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="msg">Message</label>
+                    </div>
+                    <div>
+                        <textarea id="msg" rows="4"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send Email"/>
+                    </div>
+                </form>
+
+            </aside>
+
+            <footer>
+                &copy;2023 Copyright - Namitha Santhosh
+            </footer>
+        </div>
+        <script type="module" src="index.js"></script>
+    </body>
+</html>

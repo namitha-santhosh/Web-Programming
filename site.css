@@ -1,0 +1,98 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    grid-area: main;
+    background-color: #808080;
+}
+
+h1,h2{
+    color:darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+#headshot{
+    border: 1px solid #808080;
+    padding:2px;
+    margin:8px;
+    border-radius:500px;
+    max-width:50px;
+}
+
+.experience{
+    font-family: 'Times New Roman', Times, serif;
+    border: inset 1px;
+    margin-bottom: 4px;
+    background-color: white;
+    color:#222
+}
+
+.experience .title{
+    font-weight: bold;
+}
+
+footer{
+    text-align:center;
+    color:lightblue;
+    padding:2px;
+    background-color: #222;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    grid-area: footer;
+}
+
+aside{
+    grid-area: aside;
+}
+#menu li{
+    display:inline;
+    padding:8px;
+    background-color:darkgray;
+}
+
+#menu li a{
+    color:white !important;
+    text-decoration:none;
+}
+
+#menu li.active{
+    background-color: darkviolet;
+}
+
+#menu{
+    float:right;
+}
+
+header{
+    display:flex;
+    justify-content: start;
+    align-items:center;
+    grid-area:header;
+}
+
+header #menu{
+    margin-left:auto;
+}
+
+/*header #headshot, header #siteName, header #menu{
+    display:inline;
+    vertical-align: middle;
+} */
+
+.container{
+    display:grid;
+    grid-template-areas:
+     "header header"
+     "main aside"
+     "footer footer";
+    grid-template-columns: auto 200px;
+    grid-gap:8px;
+}
+
+#formInfo{
+    font-style: italic;
+    font-size: 14px;
+}
