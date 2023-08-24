@@ -4,9 +4,9 @@
 // document.writeln(name+number);
 // // alert("Hello World");
 
-const formInfo = document.getElementById("formInfo");
+const formInfo = document.getElementById("formInfo"); 
 
-let hasJob = true;
+let hasJob = false;
 if(hasJob){
     showMessage("Thanks for visiting,I'm currently employed.");
 } else{
